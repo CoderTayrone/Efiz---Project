@@ -130,19 +130,16 @@
 }
 .col_servico{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    grid-template-columns: 1fr;
     padding: 32px;
-    font-size: 18px;
-}
-.serv{
     background-color: #EEEEEE;
-    padding: 42px;
     border-radius: 25px;
 }
-.serv h3{
-    padding: 18px;
+.col_servico h3{
+    font-size: 28px;
+    padding: 12px;
 }
-.serv p{
-    opacity: 0.7;
+.col_servico p{
+    padding: 12px;
+    font-size: 24px;
 }
