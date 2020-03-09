@@ -7,15 +7,18 @@
 }
 
 body{
+    margin-top: 60px;
     font-family: 'Roboto', sans-serif;
 }
 .container_header{
-    background-color: rgba(0,0,0,0.0);
+    /* background-color: rgba(0,0,0,0.8); */
+    background-color: #FFFFFF;
     width: 100%;
     margin: 0 auto;
     height: auto;
     position: fixed;
     z-index: 3;
+    top: 0;
 }
 
 .container_menu{
@@ -27,16 +30,16 @@ body{
     max-width:1200px;
     width: 100%;
     margin: 0 auto;
-    padding: 10px;
-    color: white;
+    padding: 32px;
+    color: black;
     
 }
 .links a{
-    color: white;
+    color: black;
     font-size: 15px;
     padding-right: 8px;
     text-decoration: none;
-    font-weight: lighter;
+    font-weight: bold;
     position: relative;
    
 }
@@ -45,12 +48,24 @@ body{
     font-weight: 700;
 
 }
+.links a::after{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #ECAAA9;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+}
+
+
+
 
 .links a::after{
     content: "";
     width: 0;
     height: 2px;
-    background-color: white;
+    background-color: #ECAAA9;
     position: absolute;
     left: 0;
     bottom: -4px;
@@ -58,7 +73,6 @@ body{
 
 .links a:hover::after{
       width: 100%;
-       color: #2693ff;
       transition: all 900ms ease-in-out ;
      
     
@@ -86,6 +100,10 @@ section.banner{
     padding: 15px 0;
     min-height: 500px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 
 }
 
@@ -96,9 +114,11 @@ section.banner{
     flex-direction: column;
     align-items: center;
     max-width: 900px;
-    margin: 90px auto;
+    margin: 150px 0 auto;
     text-align: center;
-    padding: 32px;
+    padding: 15px;
+   
+    
 }
 
 .content-banner h2{
@@ -119,10 +139,12 @@ section.banner{
 }
 .button:hover{
     background-color: #64a587;
+    transition: 1s ease-in-out;
   
 }
 .button a:hover{
     text-decoration: underline;
+     transition: 1s ease-in-out;
   
 }
 
@@ -131,14 +153,16 @@ section.banner{
     width: 300px;
     justify-content: center;
     align-items: center;
-    background-color: #2693ff;
+    background-color: rgb(241, 105, 105);
     color: white;
     text-align: center;
     text-decoration: none;
     margin-top: 80px;
     border-radius: 30px;
     padding: 10px;
-    opacity: 0.7;
+    cursor: pointer;
+   
+    
 }
 .button  i{
     font-size: 40px;
@@ -152,11 +176,11 @@ section.banner{
 /* service */
 
 .content-service{
-    max-width: 1200px;
     width: 100%;
     margin: 0 auto;
     text-align: center;
     padding: 32px;
+    background-color: #E9E9E9;
 }
 
 .content-service h3{
