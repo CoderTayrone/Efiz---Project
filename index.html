@@ -2,6 +2,9 @@
 <html lang="pt-br">
 
 <head>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta charset="author" content="Wesley Guerra">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
@@ -10,24 +13,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body id="home">
     <div class="icon-zap">
         <a href="https://api.whatsapp.com/send?phone=5571993768339&text=Ol%C3%A1%20meu%20nome%20%C3%A9"
             target="_blank"><img src="./img/media_social_whatsapp_icon_124250.ico" alt=""></a>
     </div>
 
-    <header class="container_header">
-        </section>
+    <header class="container_header" >
         <div class="container_menu">
-            <div class="col_logo">
+            <div class="col_logo" >
                 <!-- <a href=""><img src="img/logo1.jpeg" alt=""></a>  -->
                 <h1 style="font-size:  40px; color: #ECAAA9;">LOGO</h1>
             </div>
             <div class="links">
-                <a href="#" class="active">Home</a>
-                <a href="#">Nossos Segmentos</a>
-                <a href="#">Abertura de Empresas</a>
-                <a href="#">Contato</a>
+                
+                <a href="#home" class="active">Home</a>
+                <a href="#nossossegmentos">Nossos Segmentos</a>
+                <a href="#abertura_empresa">Abertura de Empresas</a>
+                <a href="#contato">Contato</a>
             </div>
         </div>
     </header> <!-- header -->
@@ -41,13 +44,14 @@
                 <a href="#">Nossos Serviços</a> <i class="material-icons">arrow_right</i>
             </div>
 
-
+       
 
         </div> <!-- content banner -->
-    </section><!-- banner -->
-
-    <section class="content-service">
-        <div class="content-title">
+        
+    </section ><!-- banner -->
+    <a id="nossossegmentos"></a>
+    <section class="content-service " >
+        <div class="content-title" >
             <h3>CONHEÇA OS NOSSOS SEGMENTOS</h3>
             <p>Temos o compromisso de ajudar a sua empresa a crescer de forma rápida e prática, com planejamento, organização e gestão
             de processos.</p>
@@ -120,13 +124,13 @@
 
     </section> <!-- Serviço -->
 
-    <footer>
+    <footer  id="contato">
 
-        <div class="cads-footer">
+        <div class="cads-footer" >
             <div class="card-footer">
                 <div class="logo-footer">
                     <!-- <img src="" alt=""> -->
-                    <h1 style="color: #ECAAA9;;">LOGO</h1>
+                    <a href=""><h1 style="color: #ECAAA9;;">LOGO</h1></a>
                 </div>
                 <div class="content-footer">
                     <p>A Efiz é um escritório contábil digital que através de soluções tecnológicas, ajuda o empresário
@@ -136,16 +140,16 @@
             </div> <!-- card-footer -->
 
             <div class="card-footer">
-                <div class="logo-footer">
+                <div class="logo-footer" >
                     <!-- <img src="" alt=""> -->
                     <h3>Informações de contato</h3>
                 </div>
                 <div class="content-footer">
                     <!-- <p>Rua Praça das Palmas, nº 87 - Holambra/Sp</p> -->
                     <div class="links-footer">
-                        <a href=""><i class="material-icons"> call</i> (71) 99376-8339</a>
-                        <a href=""><i class="material-icons">email</i> contato@efiz.com.br</a>
-                        <a href=""> <i class="material-icons">access_time</i> Seg. à Sex. das 08:00 ás 17:30</a>
+                        <a href=""> <i class="material-icons"> call </i> (71) 99376-8339</a>
+                        <a href=""> <i class="material-icons"> email </i> contato@efiz.com.br</a>
+                        <a href="">  <i class="material-icons"> access_time </i> Seg. à Sex. das 08:00 ás 17:30</a>
                     </div>
                 </div>
             </div>
@@ -159,6 +163,9 @@
 
     </footer>
 
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 
 </body>
 
