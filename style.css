@@ -20,6 +20,7 @@ body{
 .col_logo{
      animation-name: Pw ; /* animation */
     animation-duration: 1200ms; 
+    animation-timing-function: ease-in-out;
 }
 @keyframes Pw{ /* animation */
     from {
