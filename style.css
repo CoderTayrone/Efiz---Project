@@ -15,14 +15,29 @@ body{
     bottom: 10px;
     z-index: 3;
     left: 10px;
+
+    animation-name: zap ; /* animation */
+    animation-duration: 3s; 
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes zap{ /* animation */
+    from {
+        opacity: 0;
+        transform: scaleY(10px)
+    }
+    to{
+        opacity: 1;
+    }
 }
 
 .col_logo{
-     animation-name: Pw ; /* animation */
+     animation-name: logo ; /* animation */
     animation-duration: 1200ms; 
     animation-timing-function: ease-in-out;
 }
-@keyframes Pw{ /* animation */
+@keyframes logo{ /* animation */
     from {
         opacity: 0;
         transform: rotateZ(90deg)
