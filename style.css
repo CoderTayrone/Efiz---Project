@@ -16,9 +16,13 @@ body{
     margin-top: 100px;
     font-family: 'Roboto', sans-serif;
 }
+
+.icon-zap img{
+    width: 50px;
+}
 .icon-zap{
     position:fixed;
-    bottom: 10px;
+    bottom: 50%;
     z-index: 3;
     left: 10px;
 
@@ -374,7 +378,6 @@ footer{
     color: white;
     font-size: 15px;
     text-transform: uppercase;
-    padding-bottom: 10%;
 }
 .content-footer p{
   
@@ -398,9 +401,7 @@ footer{
     text-decoration: none;
      color: rgb(134, 131, 131);
      display: flex;
-}
-.links-footer a:hover{
-   color: white;
+     color: white;
 }
 i{
     color: white;
