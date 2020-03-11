@@ -94,6 +94,9 @@ font-weight: bold;
 position: relative;
 }
 
+.links a:hover{
+    color: #64a587 ;
+}
 
 .links a::after.active{
 content: "";
