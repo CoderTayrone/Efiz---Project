@@ -85,6 +85,10 @@ padding: 28px;
 
 
 }
+
+.menu-opener{
+    display: none;
+}
 .links a{
 color: #54595F;
 font-size: 15px;
@@ -92,6 +96,10 @@ padding-right: 8px;
 text-decoration: none;
 font-weight: bold;
 position: relative;
+}
+
+.active{
+  color: #64a587 ;
 }
 
 .links a:hover{
@@ -124,11 +132,7 @@ bottom: -4px;
 .links a:hover::after{
 width: 100%;
 transition: all 900ms ease-in-out ;
-
-
 }
-
-
 
 /* ====banner=== */
 
@@ -263,6 +267,10 @@ color: white;
 font-size: 25px;
 } */
 
+
+/* Final do banner */
+
+
 /* service content cards */
 
 .content-service{
@@ -393,6 +401,12 @@ background-color: #393940;
     transition: 1s;
 }
 
+/* final do cards */
+
+
+
+
+
 /* footer */
 
 footer{
@@ -402,14 +416,13 @@ padding: 50px ;
 
 .cads-footer{
 
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-gap: 20px;
-padding: 32px;
+
+display: flex;
+flex-wrap: wrap;
 }
 
 .card-footer{
-
+flex:1;
 text-align: left;
 }
 
@@ -425,7 +438,8 @@ text-transform: uppercase;
 }
 .content-footer p{
 
-width: 400px;
+max-width: 400px;
+width: 100%;
 line-height: 30px;
 }
 
@@ -449,4 +463,82 @@ color: white;
 }
 .links-footer a i{
  margin-right: 10px;
+}
+
+
+
+/* ===Responsividade=== */
+
+@media (min-width:450px) and (max-width:800px ){
+
+.links {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    width: 50vw;
+    height: calc(100vh - 10px);
+    z-index: 99;
+    top:104px;
+    right: 0;
+    display: none;
+    
+ 
+}
+.links a {
+    display: block;
+    color: #fff;
+    padding: 32px;
+    border-bottom: 1px solid #ccc;
+}
+
+.active{
+    color: #64a587;
+}
+
+
+.menu-opener{
+    z-index: 10 ;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    display: block;
+    top: 30px;
+    right: 10px;
+}
+
+.menu-opener i{
+  color: #64a587;
+   font-size: 40px;
+}
+
+#abertura_empresa {
+    display: block;
+   
+}
+
+.item-img img {
+    
+    padding-top: 60px;
+}
+
+.cads-footer {
+
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.card-footer{
+    margin-top: 30px;
+}
+
+.links-footer a{
+   margin-top: 5px;
+}
+
+.card{
+   padding: 15%;
+}
+
 }
