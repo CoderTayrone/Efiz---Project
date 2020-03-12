@@ -471,7 +471,7 @@ color: white;
 
 /* ===Responsividade=== */
 
-@media (min-width:450px) and (max-width:800px ){
+@media  (max-width:800px ){
 
 .links {
     position: absolute;
