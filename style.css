@@ -410,20 +410,22 @@ background-color: #393940;
 /* footer */
 
 footer{
+    width: 100%;
 background-color: #2B2B2B ;
 padding: 50px ;
 }
 
 .cads-footer{
 
-
+width: 100%;
 display: flex;
 flex-wrap: wrap;
 }
 
 .card-footer{
-flex:1;
 text-align: left;
+padding: 5px;
+margin: 0 auto;
 }
 
 .card-footer p{
@@ -522,6 +524,19 @@ color: white;
     padding-top: 60px;
 }
 
+
+
+.links-footer a{
+   margin-top: 5px;
+}
+
+.card{
+   padding: 15%;
+}
+
+
+
+/* 
 .cads-footer {
 
     display: flex;
@@ -534,12 +549,9 @@ color: white;
     margin-top: 30px;
 }
 
-.links-footer a{
-   margin-top: 5px;
-}
 
-.card{
-   padding: 15%;
-}
+
+
+*/
 
 }
