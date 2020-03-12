@@ -6,7 +6,7 @@ border: 0;
 box-sizing: border-box;
 }
 :root{
-/*  --color-principal: #64a587; */
+ --color-segudaria: #64a587; 
 
 /*  --color-principal: #64a587; */
 --color-principal: #ECAAA9;
@@ -99,11 +99,11 @@ position: relative;
 }
 
 .active{
-  color: #64a587 ;
+  color: var(--color-principal) ;
 }
 
 .links a:hover{
-    color: #64a587 ;
+    color: var(--color-principal) ;
 }
 
 .links a::after.active{
@@ -123,7 +123,7 @@ bottom: -4px;
 content: "";
 width: 0;
 height: 1px;
-background-color: #54595F;
+background-color: var(--color-principal);
 position: absolute;
 left: 0;
 bottom: -4px;
@@ -205,12 +205,12 @@ display: flex;
 justify-content: center;
 align-items: center;
 padding: 15px;
-border: 1px solid #64a587 ;
+border: 1px solid var(--color-principal) ;
 color:white ;
 text-align: center;
 text-decoration: none;
 cursor: pointer;
-background-color: #64a587;
+background-color: var(--color-principal);
 width: 180px;
 border-radius: 5px;
 }
@@ -221,7 +221,7 @@ color: #64a587 ;
 
 .content-banner a:hover{
 background-color: rgba(0,0,0,0.0) ;
-color: #64a587;
+color: var(--color-principal);
 transition: 1s;
 }
 
@@ -504,6 +504,7 @@ color: white;
     display: block;
     top: 30px;
     right: 10px;
+    cursor: pointer;
 }
 
 .menu-opener i{
