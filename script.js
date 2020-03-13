@@ -20,6 +20,7 @@ $(function () {
 })
 
 
+/* funcionalidade no menu */
 const buttonMenu = document.querySelector('.menu-opener')
 buttonMenu.addEventListener('click',()=>{
     document.querySelector('.links').classList.toggle('oculte')

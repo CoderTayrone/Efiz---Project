@@ -79,12 +79,14 @@ justify-content: space-between;
 width: 100%;
 margin: 0 auto;
 padding: 28px;
+transition: ease-in-out;
 
 
 }
 
 .menu-opener{
 display: none;
+
 
 }
 .links a{
@@ -94,6 +96,7 @@ padding-right: 14px;
 text-decoration: none;
 font-weight: bold;
 position: relative;
+transition: 2s;
 }
 
 .active{
@@ -468,9 +471,15 @@ margin-right: 10px;
 
 
 
+
 /* ===Responsividade=== */
 
 @media (min-width:450px) and (max-width:800px ){
+
+    /* funcionalidades javascript */
+     .links.oculte{
+         transition: ease-in-out;
+     }
 
 .links {
 position: absolute;
@@ -481,25 +490,31 @@ height: calc(100vh - 10px);
 z-index: 99;
 top:104px;
 right: 0;
-
-
-
-}
-.links a {
-display: block;
-color: #fff;
-padding: 32px;
-border-bottom: 1px solid #ccc;
+transition: all 400ms;
 }
 
-.oculte{
-    display: none;
+
+.links.oculte{
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+
    
 }
 
 
+.links a {
+display: block;
+color: #fff;
+padding: 32px;
+
+}
+
+
+
 .active{
 color: #64a587;
+
 }
 
 
@@ -592,20 +607,26 @@ height: calc(100vh - 10px);
 z-index: 99;
 top:104px;
 right: 0;
-
-
+transition: all 400ms;
 
 }
+
+.links.oculte{
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+
+   
+}
+
+
 .links a {
 display: block;
 color: #fff;
-padding: 32px;
-border-bottom: 1px solid #ccc;
-font-size: 15px;
+padding: 28px;
+font-size: 12px;
 }
-.oculte{
-    display: none;
-}
+
 
 .active{
 color: #64a587;
