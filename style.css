@@ -15,6 +15,7 @@ box-sizing: border-box;
 body{
 margin-top: 100px;
 font-family: 'Roboto', sans-serif;
+width: 100%;
 }
 
 .icon-zap img{
@@ -84,6 +85,7 @@ padding: 28px;
 
 .menu-opener{
     display: none;
+
 }
 .links a{
 color: #54595F;
@@ -468,7 +470,7 @@ color: white;
 
 /* ===Responsividade=== */
 
-@media  (max-width:800px ){
+@media (min-width:450px) and (max-width:800px ){
 
 .links {
     position: absolute;
@@ -507,9 +509,23 @@ color: white;
 }
 
 .menu-opener i{
-  color: #64a587;
+  color: black;
    font-size: 40px;
 }
+
+/* == final do menu=== */
+/* banner */
+.content-banner h2{
+    font-size: 40px;
+}
+
+/* ===serviços ==== */
+.content-title h3{
+padding-top: 5%;
+font-size: 28px;
+text-transform: uppercase;
+}
+
 
 #abertura_empresa {
     display: block;
@@ -522,33 +538,128 @@ color: white;
 }
 
 
-
-.links-footer a{
-   margin-top: 5px;
-}
-
 .card{
    padding: 15%;
 }
 
 
-
-/* 
-.cads-footer {
-
-    display: flex;
-    flex-direction: column;
-    
-    
+/* === footer== */
+.links-footer a{
+   margin-top: 5px;
 }
 
 .card-footer{
-    margin-top: 30px;
+    width: 100%;
+    
+}
+.content-footer{
+
+}
+
+.content-footer p{
+max-width: 600px;
+width: 100%;
+line-height: 30px;
+}
 }
 
 
+@media (max-width:450px){
+    
+    .links {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    width: 50vw;
+    height: calc(100vh - 10px);
+    z-index: 99;
+    top:104px;
+    right: 0;
+    display: none;
+    
+ 
+}
+.links a {
+    display: block;
+    color: #fff;
+    padding: 32px;
+    border-bottom: 1px solid #ccc;
+}
+
+.active{
+    color: #64a587;
+}
 
 
-*/
+.menu-opener{
+    z-index: 10 ;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    display: block;
+    top: 30px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.menu-opener i{
+  color: black;
+   font-size: 40px;
+}
+
+/* == final do menu=== */
+/* banner */
+.content-banner h2{
+    font-size: 40px;
+}
+
+/* ===serviços ==== */
+.content-title h3{
+padding-top: 5%;
+font-size: 28px;
+text-transform: uppercase;
+}
+
+
+#abertura_empresa {
+    display: block;
+   
+}
+
+.item-img img {
+    
+    padding-top: 60px;
+}
+
+/* cards */
+.cards{
+    padding: 0;
+}
+.card{
+   padding: 15%;
+}
+
+
+/* === footer== */
+.links-footer a{
+   margin-top: 5px;
+}
+
+.card-footer{
+    margin-top: 40px;
+    width: 100%;
+    
+}
+.content-footer{
+
+}
+
+.content-footer p{
+max-width: 600px;
+
+width: 100%;
+line-height: 30px;
+}
+
 
 }
