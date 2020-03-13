@@ -8,14 +8,17 @@ box-sizing: border-box;
 :root{
 --color-segudaria: #64a587; 
 
-/*  --color-principal: #64a587; */
---color-principal: #ECAAA9;
+ /* --color-principal: #64a587;
+--color-principal: #ECAAA9; */
+--color-principal: #7159C1;
 }
 
 body{
 margin-top: 100px;
 font-family: 'Roboto', sans-serif;
 width: 100%;
+color: #4B4B4B;
+
 }
 
 .icon-zap img{
@@ -67,6 +70,7 @@ top: 0;
 -webkit-box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.75);
 box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.75);
+background-color: var(--color-principal);
 
 }
 
@@ -90,21 +94,23 @@ display: none;
 
 }
 .links a{
-color: #54595F;
+color: white;
 font-size: 18px;
 padding-right: 14px;
 text-decoration: none;
 font-weight: bold;
 position: relative;
-transition: 2s;
+transition: 0.5;
+opacity: 0.5;
 }
 
 .active{
-color: var(--color-principal) ;
+/* color: var(--color-principal) ; */
 }
 
 .links a:hover{
-color: var(--color-principal) ;
+/* color: var(--color-principal) ; */
+opacity: 1;
 }
 
 .links a::after.active{
@@ -124,7 +130,7 @@ bottom: -4px;
 content: "";
 width: 0;
 height: 1px;
-background-color: var(--color-principal);
+background-color: white;
 position: absolute;
 left: 0;
 bottom: -4px;
@@ -285,7 +291,7 @@ padding: 32px;
 .content-title h3{
 padding-top: 5%;
 font-size: 40px;
-text-transform: uppercase;
+
 }
 .content-title p{
 margin: 0 auto;
@@ -327,7 +333,7 @@ box-shadow: 1px 2px 9px -2px rgba(0,0,0,0.75);
 padding-bottom: 10%;
 }
 .card .content h4{
-text-transform: uppercase;
+
 }
 .card .content p{
 
@@ -393,7 +399,7 @@ text-align: center;
 text-decoration: none;
 border-radius: 5px;
 cursor: pointer;
-background-color: #393940;
+background-color: var(--color-principal);
 
 }
 
@@ -414,7 +420,7 @@ transition: 1s;
 footer{
 width: 100%;
 background-color: #2B2B2B ;
-padding: 50px ;
+padding: 40px 0px 0px;
 }
 
 .cads-footer{
@@ -438,7 +444,7 @@ width: 400px;
 .logo-footer h3{ 
 color: white;
 font-size: 15px;
-text-transform: uppercase;
+
 }
 .content-footer p{
 
@@ -473,7 +479,7 @@ margin-right: 10px;
     width: 100%;
     padding: 10px;
     text-align: center;
-    background-color:#000000 ;
+    background-color: rgba(0, 0, 0, 0.8) ;
     color: white;
 }
 
