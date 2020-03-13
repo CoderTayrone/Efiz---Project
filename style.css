@@ -469,6 +469,14 @@ color: white;
 margin-right: 10px;
 }
 
+.rodape > p{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color:#000000 ;
+    color: white;
+}
+
 
 
 
