@@ -482,6 +482,12 @@ margin-right: 10px;
     color: white;
 }
 
+.rodape span + span{
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+
+
 
 
 
