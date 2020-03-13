@@ -481,7 +481,7 @@ height: calc(100vh - 10px);
 z-index: 99;
 top:104px;
 right: 0;
-display: none;
+
 
 
 }
@@ -491,6 +491,12 @@ color: #fff;
 padding: 32px;
 border-bottom: 1px solid #ccc;
 }
+
+.oculte{
+    display: none;
+   
+}
+
 
 .active{
 color: #64a587;
@@ -586,7 +592,7 @@ height: calc(100vh - 10px);
 z-index: 99;
 top:104px;
 right: 0;
-display: none;
+
 
 
 }
@@ -595,6 +601,10 @@ display: block;
 color: #fff;
 padding: 32px;
 border-bottom: 1px solid #ccc;
+font-size: 15px;
+}
+.oculte{
+    display: none;
 }
 
 .active{

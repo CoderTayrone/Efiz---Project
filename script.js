@@ -20,10 +20,7 @@ $(function () {
 })
 
 
-// const buttonMenu = document.querySelector('.menu-opener')
-// alert(buttonMenu)
-// buttonMenu.addEventListener('click',()=>{
-//     if (buttonMenu.innerHTML == ""){
-
-//     }
-// })
+const buttonMenu = document.querySelector('.menu-opener')
+buttonMenu.addEventListener('click',()=>{
+    document.querySelector('.links').classList.toggle('oculte')
+})
