@@ -6,7 +6,7 @@ border: 0;
 box-sizing: border-box;
 }
 :root{
- --color-segudaria: #64a587; 
+--color-segudaria: #64a587; 
 
 /*  --color-principal: #64a587; */
 --color-principal: #ECAAA9;
@@ -84,7 +84,7 @@ padding: 28px;
 }
 
 .menu-opener{
-    display: none;
+display: none;
 
 }
 .links a{
@@ -97,11 +97,11 @@ position: relative;
 }
 
 .active{
-  color: var(--color-principal) ;
+color: var(--color-principal) ;
 }
 
 .links a:hover{
-    color: var(--color-principal) ;
+color: var(--color-principal) ;
 }
 
 .links a::after.active{
@@ -395,9 +395,9 @@ background-color: #393940;
 }
 
 .btn:hover{
-    width: 200px;
-    font-size: 20px;
-    transition: 1s;
+width: 200px;
+font-size: 20px;
+transition: 1s;
 }
 
 /* final do cards */
@@ -409,7 +409,7 @@ background-color: #393940;
 /* footer */
 
 footer{
-    width: 100%;
+width: 100%;
 background-color: #2B2B2B ;
 padding: 50px ;
 }
@@ -463,7 +463,7 @@ display: flex;
 color: white;
 }
 .links-footer a i{
- margin-right: 10px;
+margin-right: 10px;
 }
 
 
@@ -473,50 +473,50 @@ color: white;
 @media (min-width:450px) and (max-width:800px ){
 
 .links {
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #fff;
-    width: 50vw;
-    height: calc(100vh - 10px);
-    z-index: 99;
-    top:104px;
-    right: 0;
-    display: none;
-    
- 
+position: absolute;
+background-color: rgba(0, 0, 0, 0.8);
+color: #fff;
+width: 50vw;
+height: calc(100vh - 10px);
+z-index: 99;
+top:104px;
+right: 0;
+display: none;
+
+
 }
 .links a {
-    display: block;
-    color: #fff;
-    padding: 32px;
-    border-bottom: 1px solid #ccc;
+display: block;
+color: #fff;
+padding: 32px;
+border-bottom: 1px solid #ccc;
 }
 
 .active{
-    color: #64a587;
+color: #64a587;
 }
 
 
 .menu-opener{
-    z-index: 10 ;
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    display: block;
-    top: 30px;
-    right: 10px;
-    cursor: pointer;
+z-index: 10 ;
+width: 40px;
+height: 40px;
+position: absolute;
+display: block;
+top: 30px;
+right: 10px;
+cursor: pointer;
 }
 
 .menu-opener i{
-  color: black;
-   font-size: 40px;
+color: black;
+font-size: 40px;
 }
 
 /* == final do menu=== */
 /* banner */
 .content-banner h2{
-    font-size: 40px;
+font-size: 40px;
 }
 
 /* ===serviços ==== */
@@ -528,29 +528,29 @@ text-transform: uppercase;
 
 
 #abertura_empresa {
-    display: block;
-   
+display: block;
+
 }
 
 .item-img img {
-    
-    padding-top: 60px;
+
+padding-top: 60px;
 }
 
 
 .card{
-   padding: 15%;
+padding: 15%;
 }
 
 
 /* === footer== */
 .links-footer a{
-   margin-top: 5px;
+margin-top: 5px;
 }
 
 .card-footer{
-    width: 100%;
-    
+width: 100%;
+
 }
 .content-footer{
 
@@ -565,52 +565,63 @@ line-height: 30px;
 
 
 @media (max-width:450px){
-    
-    .links {
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #fff;
-    width: 50vw;
-    height: calc(100vh - 10px);
-    z-index: 99;
-    top:104px;
-    right: 0;
-    display: none;
-    
- 
+
+.icon-zap{
+position: fixed;
+bottom: 5px;
+z-index: 4;
+left: 10px;
+}
+
+.icon-zap img{
+width: 40px;
+}
+
+.links {
+position: absolute;
+background-color: rgba(0, 0, 0, 0.8);
+color: #fff;
+width: 50vw;
+height: calc(100vh - 10px);
+z-index: 99;
+top:104px;
+right: 0;
+display: none;
+
+
 }
 .links a {
-    display: block;
-    color: #fff;
-    padding: 32px;
-    border-bottom: 1px solid #ccc;
+display: block;
+color: #fff;
+padding: 32px;
+border-bottom: 1px solid #ccc;
 }
 
 .active{
-    color: #64a587;
+color: #64a587;
 }
 
 
 .menu-opener{
-    z-index: 10 ;
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    display: block;
-    top: 30px;
-    right: 10px;
-    cursor: pointer;
+z-index: 10 ;
+width: 40px;
+height: 40px;
+position: absolute;
+display: block;
+top: 30px;
+right: 10px;
+cursor: pointer;
 }
 
 .menu-opener i{
-  color: black;
-   font-size: 40px;
+color: black;
+font-size: 40px;
 }
 
 /* == final do menu=== */
 /* banner */
 .content-banner h2{
-    font-size: 40px;
+font-size: 40px;
 }
 
 /* ===serviços ==== */
@@ -622,33 +633,33 @@ text-transform: uppercase;
 
 
 #abertura_empresa {
-    display: block;
-   
+display: block;
+
 }
 
 .item-img img {
-    
-    padding-top: 60px;
+
+padding-top: 60px;
 }
 
 /* cards */
 .cards{
-    padding: 0;
+padding: 0;
 }
 .card{
-   padding: 15%;
+padding: 15%;
 }
 
 
 /* === footer== */
 .links-footer a{
-   margin-top: 5px;
+margin-top: 5px;
 }
 
 .card-footer{
-    margin-top: 40px;
-    width: 100%;
-    
+margin-top: 40px;
+width: 100%;
+
 }
 .content-footer{
 

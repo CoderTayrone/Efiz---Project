@@ -1,5 +1,3 @@
-
-
 $(function () {
     $('.links a').click(function () {
         var href = $(this).attr('href');
@@ -19,6 +17,13 @@ $(function () {
 
     //     return false;
     // })
-
-
 })
+
+
+// const buttonMenu = document.querySelector('.menu-opener')
+// alert(buttonMenu)
+// buttonMenu.addEventListener('click',()=>{
+//     if (buttonMenu.innerHTML == ""){
+
+//     }
+// })
