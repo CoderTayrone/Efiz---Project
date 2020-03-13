@@ -719,13 +719,16 @@ line-height: 30px;
 
 [data-anime="left"]{
     transform: translate3d(-50px, 0 , 0 );
+    visibility: hidden;
 }
 
 [data-anime="right"]{
     transform: translate3d(50px, 0 , 0 );
+    visibility: hidden;
 }
 
 [data-anime].animate{
     opacity: 1;
     transform: translate3d(0px, 0px ,0px);
+     visibility: visible;
 }
