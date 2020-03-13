@@ -731,12 +731,12 @@ line-height: 30px;
 }
 
 [data-anime="left"]{
-    transform: translate3d(-50px, 0 , 0 );
+    transform: translate3d(-30px, 0 , 0 );
     visibility: hidden;
 }
 
 [data-anime="right"]{
-    transform: translate3d(50px, 0 , 0 );
+    transform: translate3d(30px, 0 , 0 );
     visibility: hidden;
 }
 
