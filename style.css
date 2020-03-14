@@ -734,7 +734,7 @@ line-height: 30px;
 
 [data-anime]{
     opacity: 0;
-    transition: 1.3s;
+    transition: 2s;
 }
 
 [data-anime="left"]{
